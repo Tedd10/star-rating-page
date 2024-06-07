@@ -1,0 +1,46 @@
+/* src/App.css */
+body {
+  font-family: Arial, sans-serif;
+  background: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: white;
+}
+
+.app-container {
+  padding: 20px;
+  text-align: center;
+  background-color: #1a1a1a;
+  height: 100vh;
+  color: white;
+}
+
+.star {
+  cursor: pointer;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.dialog {
+  border: 1px solid black;
+  padding: 20px;
+  width: 300px;
+  background: #fff;
+  color: black;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
