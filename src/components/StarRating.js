@@ -1,7 +1,7 @@
 // src/components/StarRating.js
 import React, { useState } from 'react';
 import Star from './Star';
-import '../App.css';
+//import '../App.css';
 
 const StarRating = () => {
   const [rating, setRating] = useState(0);

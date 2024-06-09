@@ -1,9 +1,10 @@
 // src/App.js
+import './css/style.css'
 import React, { useState } from 'react';
 import StarRating from './components/StarRating';
 import Dialog from './components/Dialog';
-import reactLogo from './img/React-icon.svg.png';
-import './App.css';
+import reactLogo from './img/react-img.jpg';
+//import './App.css';
 
 const App = () => {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
